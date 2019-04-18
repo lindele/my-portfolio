@@ -26,7 +26,7 @@ const myWork = [
   {
     'title': "This Portfolio!",
     'href': "https://github.com/lindele/my-portfolio",
-    'desc': "Created this online portfolio using A Cloud Guru's online course, 'Create a Serverless Portfolio with AWS and ReactJS'. After taking this course I took a University course where we developed an application using React-Native (see Beacon) and have continued to update my portfolio. In the course I learned to automate deployment using CodeBuild, CloudFront, S3 and Lamda.",
+    'desc': "Created this online portfolio using A Cloud Guru's online course, 'Create a Serverless Portfolio with AWS and ReactJS'. After taking this course I took a University course where we developed an application using React-Native (see Beacon) and have continued to update my portfolio. In the course I learned to automate deployment using CodeBuild, CloudFront, S3 and Lambda.",
     'image': {
       'desc': "",
       'src': "images/",
