@@ -84,7 +84,6 @@ h1, h2, h3, h4, h5, h6 {
 .section {
   font-size: 4.2rem;
   min-height: 10vh;
-  max-height: 50vh;
   position: relative;
   padding-top: 2rem;
   padding-bottom: 2rem;
@@ -121,7 +120,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .section__exampleWrapper {
-  margin-right: 4rem;
+  margin-right: 10rem;
 }
 
 .section__example {
@@ -129,7 +128,7 @@ h1, h2, h3, h4, h5, h6 {
   cursor: pointer;
   overflow: hidden;
   position: relative;
-}
+  }
 
 .section__example:active {
   transition: 0.05s all;
@@ -207,7 +206,7 @@ h1, h2, h3, h4, h5, h6 {
   top: 5rem;
   font-size: 4rem;
   z-index: 1;
-  curson: pointer;
+  cursor: pointer;
 }
 
 .modal__text {

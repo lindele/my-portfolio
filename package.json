@@ -7,7 +7,8 @@
     "test": "jest",
     "test-watch": "jest --watch",
     "webpack": "webpack",
-    "webpack-watch": "webpack --watch"
+    "webpack-watch": "webpack --watch",
+    "build": "webpack"
   },
   "repository": {
     "type": "git",
@@ -34,8 +35,11 @@
     "enzyme-adapter-react-16": "^1.1.1",
     "jest": "^22.4.3",
     "react-test-renderer": "^16.2.0",
-    "webpack": "^4.2.0",
+    "webpack": "^4.42.1",
     "webpack-cli": "^2.0.13"
+  },
+  "jest": {
+    "verbose": true,
+    "testURL": "http://localhost/"
   }
-  , "jest":{"verbose":true, "testURL": "http://localhost/"}
 }
