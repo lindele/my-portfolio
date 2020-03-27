@@ -4,6 +4,16 @@ import ExampleWork from './example-work.js';
 
 const myWork = [
   {
+    'title': "Solve Puzzle to Snooze Alarm",
+    'href': "https://sites.google.com/view/solvesnooze/home",
+    'desc': "Researched, designed, and developed functional prototype of an alarm clock. In order to stop the alarm clock the user had to solve puzzles. This functionality was to help the user be more likely to wake up when they intended.",
+    'image': {
+      'desc': "",
+      'src': "images/",
+      'comment': ""
+    }
+  },
+  {
     'title': "ICT Development",
     'href': "images/BeaconPoster.pdf",
     'desc': "There are 17 Sustainable Development Goals (SDGs) adopted by all United Nations members. These goals seek to, '...improve health and education, reduce inequality, and spur economic growth - all while tackling climate change and working to preserve our oceans and forests.' As a group of four, we decided to focus on SDG number 3, 'Good Health and Well-Being'. Specifically we wanted to use Information and Communication Technologies (ICT) to help those who suffer from anxiety and depression. Over the course of 10 weeks we researched, designed and developed a working prototype of our solution. We implemented the prototype using react-native and Expo.",
