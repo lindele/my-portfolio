@@ -23,9 +23,15 @@
 .background--skyBlue {
   background-color: rgb(52, 152, 219);
 }
+.background--companyOrange {
+  background-color: rgb(255,108,32);
+}
 
 .color--skyBlue {
   color: rgb(52, 152, 219);
+}
+.color--companyOrange {
+  color: rgb(255,108,32);
 }
 
 .color--cloud {
@@ -43,6 +49,7 @@
 .section__example {
   background-color: rgb(44, 62, 80);
 }
+
 
 /*
   General Styles
@@ -95,14 +102,14 @@ h1, h2, h3, h4, h5, h6 {
 
 .section--description {
   font-size: 2.8rem;
-  padding-left: 3.5rem;
-  padding-right: 3.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 .section__description {
   margin: 0 auto;
   margin-bottom: 2rem;
-  width: 50%;
+  width: 75%;
 }
 
 .section__text--centered {
@@ -228,4 +235,40 @@ h1, h2, h3, h4, h5, h6 {
 
 .modal__image {
   opacity: 0.2;
+}
+
+.image-stack__item {
+  padding-left: 5%;
+  padding-bottom: 5%;
+  border-top: 1px solid rgb(255,108,32);
+}
+
+.image-stack__item--right {
+  padding-right: 5%;
+  padding-bottom: 5%;
+  text-align: right;
+  border-top: 1px solid rgb(255,108,32);
+}
+
+.image-stack {
+  display: grid;
+  grid-template-columns: repeat (12, 1fr);
+  position: relative;
+}
+
+.image-stack__item--top {
+  grid-column: 1 / span 8;
+  grid-row: 1;
+  padding-top: 20%;
+  z-index: 1;
+}
+
+.image-stack__item--bottom {
+  grid-column: 4 / -1;
+  grid-row: 1;
+}
+
+.image-stack__desc {
+  padding: 15px;
+  font-size: large;
 }

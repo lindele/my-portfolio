@@ -1,8 +1,32 @@
 <!DOCTYPE html>
 <html>
   <head>
+
+    <style>
+      div.gallery {
+        margin: 5px;
+        border: 1px solid #ccc;
+        float: left;
+        width: 180px;
+      }
+      
+      div.gallery:hover {
+        border: 1px solid #777;
+      }
+      
+      div.gallery img {
+        width: 100%;
+        height: auto;
+      }
+      
+      div.desc {
+        padding: 15px;
+        text-align: center;
+      }
+      </style>
+    
     <meta charset="utf-8">
-    <title>Ethan Lindell's Portfolio</title>
+    <title>LHS LLC</title>
     <link rel="stylesheet" href="styles/main.css"/>
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
@@ -13,14 +37,16 @@
 
   <body>
     <main class="overflow--auto">
-      <h1 class="color--skyBlue section__heading--largest">
-        ETHAN LINDELL
+      <h1 class="color--companyOrange section__heading--largest">
+        Lindell Home Services LLC<br>
+        <div class="image-stack__desc"> Contractor ID: #ETHAN </div>
+
       </h1>
       <ul class="section--social">
 
         <!-- See: http://fontawesome.io/icons/#brand for more -->
 
-        <!-- Link to Linked In profile -->
+        <!-- Link to Linked In profile 
         <li class="socialWrapper">
           <a class="color--skyBlue social"
              title="LinkedIn Profile"
@@ -28,9 +54,9 @@
              href="https://www.linkedin.com/in/lindele">
             <i class="fa fa-linkedin"></i>
           </a>
-        </li>
+        </li>-->
 
-        <!-- Link to GitHub profile -->
+        <!-- Link to GitHub profile 
         <li class="socialWrapper color--skyBlue">
           <a class="social color--skyBlue"
              title="GitHub Profile"
@@ -38,30 +64,130 @@
              href="https://www.github.com/lindele">
             <i class="fa fa-github"></i>
           </a>
-        </li>
+        </li>-->
 
-        <!-- Link to resume, probably a .pdf -->
+        <!-- Link to resume, probably a .pdf 
         <li class="socialWrapper">
           <a class="social color--skyBlue"
              title="Resume"
              href="images/Lindell_Resume.pdf">
             <i class="fa fa-file-text"></i>
           </a>
-        </li>
+        </li>-->
+        <!-- Link to resume, probably a .pdf -->
+        <div class="social">
+          <img width="100" height="100" src="./images/Logo/orangeBold.png"/>
+        </div>
+        
+
       </ul>
     </main>
+
     
-    <section class="background--skyBlue section">
+    <section class="background--companyOrange section">
       <h2 class="color--cloud margin--none section__text--centered">
         Portfolio
       </h2>
     </section>
+  
+      <div class="image-stack__item">
+        <div class="image-stack__desc">Before and after, updated porch railing for the homeowner's front porch. </div>
+
+        <a target="_blank" href="./images/previousWork/porchRailingBefore.JPG">
+          <img src="./images/previousWork/porchRailingBefore.JPG" width="250" height="300">
+        </a>
+        <a target="_blank" href="./images/previousWork/porchRailingComplete.PNG">
+          <img src="./images/previousWork/porchRailingComplete.PNG" width="250" height="300">
+        </a>
+      </div>
+
+      <div class="image-stack__item--right">
+        <div class="image-stack__desc"> This crawlspace had dirt piled against the wall to the laundry room, <br>
+          clearing out some dirt and building a retaining wall created a <br> 
+          manageable space to fix the foundation supports that had rotted out. </div>
+
+        <a target="_blank" href="./images/previousWork/crawlspaceBefore.JPG">
+          <img src="./images/previousWork/crawlspaceBefore.JPG" width="250" height="300">
+        </a>
+        <a target="_blank" href="./images/previousWork/crawlspaceAfter.JPG">
+          <img src="./images/previousWork/crawlspaceAfter.JPG" width="250" height="300">
+        </a>
+      </div>
+
+      <div class="image-stack__item">
+        <div class="image-stack__desc"> The completed project - playground assembled! </div>
+
+        <a target="_blank" href="./images/previousWork/builtPlayground.JPG">
+          <img src="./images/previousWork/builtPlayground.JPG" width="300" height="250">
+        </a>
+      </div>
+
+      <div class="image-stack__item--right">
+        <div class="image-stack__desc"> Built a hogwire fence to deter people from wandering through their yard, <br>
+          while keeping a neighborhood vibe by avoiding a privacy fence. </div>
+
+        <a target="_blank" href="./images/previousWork/hogwireFence.JPG">
+          <img src="./images/previousWork/hogwireFence.JPG" width="300" height="250">
+        </a>
+        <a target="_blank" href="./images/previousWork/fenceCloseUp.jpg">
+          <img src="./images/previousWork/fenceCloseUp.jpg" width="300" height="250">
+        </a>       
+      </div>
+
+      <div class="image-stack__item">
+        <div class="image-stack__desc"> A large cedar planter box for a raised bed. </div>
+
+        <a target="_blank" href="./images/previousWork/planterBox.JPG">
+          <img src="./images/previousWork/planterBox.JPG" width="300" height="250">
+        </a>
+      </div>
+
+      <div class="image-stack__item--right">
+        <div class="image-stack__desc"> Removal of some trees in order for the plumber to get in and do their job. </div>
+
+        <a target="_blank" href="./images/previousWork/treeBefore.JPG">
+          <img src="./images/previousWork/treeBefore.JPG" width="300" height="250">
+        </a>
+        <a target="_blank" href="./images/previousWork/treeAfter.JPG">
+          <img src="./images/previousWork/treeAfter.JPG" width="300" height="250">
+        </a>
+      </div>
+
+      <div class="image-stack__item">
+        <div class="image-stack__desc"> I added wainscoating that wrapped around the room, <br>
+          a great way to bring an old room new life! </div>
+
+        <a target="_blank" href="./images/previousWork/wainscoating.JPG">
+          <img src="./images/previousWork/wainscoating.JPG" width="300" height="250">
+        </a>
+      </div>
+
+      <div class="image-stack__item--right">
+        <div class="image-stack__desc"> This is a washer and dryer stand, built for easy storage for laundry baskets <br> 
+          underneath and ease of switching loads without bending down so far.</div>
+
+        <a target="_blank" href="./images/previousWork/washerDryerStand.JPG">
+          <img src="./images/previousWork/washerDryerStand.JPG" width="300" height="250">
+        </a>
+    
+      </div>
+
+      <div class="image-stack__item">
+        <div class="image-stack__desc"> A barn door is fun, they make great closet doors, staying out of the way when they are left open. </div>
+
+        <a target="_blank" href="./images/previousWork/hallClosetBarnDoor.JPG">
+          <img src="./images/previousWork/hallClosetBarnDoor.JPG" width="300" height="250">
+        </a>
+        <a target="_blank" href="./images/previousWork/walkinClosetBarnDoor.jpg">
+          <img src="./images/previousWork/walkinClosetBarnDoor.jpg" width="300" height="250">
+        </a>
+      </div>
+    
+
+    <!--<div height="40000px" id="example-work"></div> -->
 
 
-    <div height="40000px" id="example-work"></div> 
-
-
-    <section class="background--skyBlue section">
+    <section class="background--companyOrange section">
       <h2 class="color--cloud margin--none section__text--centered">
         About Me
       </h2>
@@ -73,13 +199,30 @@
 
         <section class="section section--alignCentered section--description">
           <p class="color--darkgrey section__description">
-            Thanks for visiting! I am a Computer Science (CS) student at
+            Thanks for visiting! Please feel free to contact me for inquiries about repairs, landscaping, technology,
+            or other related services. If you are unsure, it doesn't hurt to ask! <br><br>
+            
+            I have highlighted my construction related experience with 
+            remodeling, fencing, and landscaping. I have spent a few years learning
+            from folks who have many years of experience in the maintenance and/or general
+            contracting business.<br><br>
+            
+            If you're interested in technological help, I have my Bachelor's of Science in Computer Science
+            which gives me a solid grasp on technology and problem solving for your tech needs. <br><br>
+
+            My goal is to provide quality service with professionalism to people in Bellingham. I enjoy
+            spending my time working on projects that will improve my client's life. Sometimes that looks like
+            projects around the house, other times working with those less technologyically inclined to navigate
+            our tech focused world. 
+            
+            
+            <!--Thanks for visiting! I am a Computer Science (CS) student at
             Western Washington University in Bellingham, WA graduating in June 2020. 
             I am interviewing for entry level positions as a Software Engineer in the Bellingham and Seattle area.
       	    I love solving problems and helping people, CS enables me to do both.
             I am interested in Mobile Development and I am learning to code in the cloud! 
             I like to work hard and learn new things.
-            Check out my resume in the upper right hand corner.
+            Check out my resume in the upper right hand corner.-->
           </p>
         </section>
 
