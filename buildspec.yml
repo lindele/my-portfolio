@@ -14,5 +14,5 @@ artifacts:
     - favicon.ico
     - EthanLindellResumeDec2018.pdf
     - styles/main.css
-    - images/*
+    - images/**/*
     - dist/bundle.js
