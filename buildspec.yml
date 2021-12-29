@@ -11,6 +11,7 @@ phases:
 artifacts:
   files:
     - index.html
+    - contact.html
     - favicon.ico
     - EthanLindellResumeDec2018.pdf
     - styles/main.css
