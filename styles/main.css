@@ -275,3 +275,12 @@ h1, h2, h3, h4, h5, h6 {
   padding: 15px;
   font-size: large;
 }
+
+
+.label {
+  font-size: large;
+}
+
+.form {
+  text-align: center;
+}
